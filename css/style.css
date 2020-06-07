@@ -1,0 +1,57 @@
+*{
+    font-family: Consolas, sans-serif;
+}
+body {
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+    ),
+    url("../templates/photo-1449247709967-d4461a6a6103.webp");
+}
+h1{
+    text-align: center;
+    padding: inherit;
+    color: white;
+    margin: 250px;
+}
+div.a{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+@media only screen and (min-device-width: 400px) {
+    img.rounded-circle {
+        align-items: center;
+        border-radius: 50%;
+        max-width: 100%;
+        height: auto;
+    }
+}
+.md-avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+}
+.md-avatar.size-1 {
+    width: 40px;
+    height: 40px;
+}
+.md-avatar.size-2 {
+    width: 70px;
+    height: 70px;
+}
+.md-avatar.size-3 {
+    width: 90px;
+    height: 90px;
+}
+.md-avatar.size-4 {
+    width: 110px;
+    height: 110px;
+}
+
+p.info{
+  text-align-last: center;
+}
+.card{
+  align-self: center;
+}
